@@ -7,13 +7,17 @@
 }
 
 
-.login__form label, input, button {
-   
+.login__form label, .btn__login {
     height: 30px;
     margin: 5px;
     font-size: 18px;
     color: white;
 }
+
+.login__form input{
+    font-size: 18px;
+}
+
 
 .login__form h1 {
     color: white;
@@ -22,12 +26,12 @@
     margin-bottom: 20px;
 }
 
-.login__form button {
+.login__form .btn__login {
     margin-top: 15px;
     color: black;
 }
 
-.login__form button:hover{
+.login__form .btn__login:hover{
     margin-top: 15px;
     color: white;
     background-color: rgb(187, 27, 27); 

@@ -4,7 +4,8 @@ Esse projeto serve de base para futuros projetos em React
 
 ## Desenvolvimento do projeto
 
-O projeto continua em desenvolvimento contínuo para melhoria da estrutura e do código já existente.
+O projeto tem por finalidade usar os principais conceitos de reutilização de componentes do react,
+ o projeto está em constante melhoria para que atenda a espectativa de organização e reutilização de componentes.
 
 ## Comandos para executar o projeto
 
