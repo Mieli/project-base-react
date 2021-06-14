@@ -14,6 +14,12 @@ import './LoginForm.css';
 
 export function LoginForm(props) {
 
+    let msgError = "";
+    if (props.messageError) {
+        console.log(props.messageError);
+        msgError = (<p> {props.messageError} </p>);
+    }
+
     return (
         <div className="login__form">
             <h1>Login</h1>
@@ -31,6 +37,8 @@ export function LoginForm(props) {
                 value={props.credential.senha}
                 onChange={props.onChange}
             ></Input>
+
+            {msgError}
 
             <Button
                 className="btn__login"
