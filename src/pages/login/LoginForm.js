@@ -3,6 +3,15 @@ import Input from '../../components/input/Input';
 import Button from '../../components/button/Button';
 import './LoginForm.css';
 
+/**
+ * A função LoginForm reutiliza os componentes Input e Button do diretório components/ é um componente stateless
+ * 
+ * 
+ * @author Mieli
+ * @param {email, senha, onChange, onSign} props 
+ * @returns  exibe na tela um formulário para o usuário efetuar Login
+ */
+
 export function LoginForm(props) {
 
     return (

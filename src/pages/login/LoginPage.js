@@ -2,6 +2,14 @@ import React from 'react';
 import { LoginForm } from './LoginForm';
 import './LoginPage.css';
 
+/**
+ * A Classe LoginPage é responsável por gerenciar o estado do formulário de login, é um componente statefull  
+ * 
+ * 
+ * @author Mieli
+ * @param {} props 
+ * @returns página responsável pelo gerenciamento do estado do componente formulário 
+ */
 class LoginPage extends React.Component {
 
     constructor(props){
